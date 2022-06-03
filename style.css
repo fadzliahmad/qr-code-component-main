@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --bg-card: hsl(0, 0%, 100%);
+  --bg-main: hsl(212, 45%, 89%);
+  --description: hsl(220, 15%, 55%);
+  --title: hsl(218, 44%, 22%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main);
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  color: var(--title);
+  font-size: 22px;
+  padding: 0rem 1rem 0rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+p {
+  color: var(--description);
+  padding: 0rem 2rem 0rem;
+  margin: 1rem 0rem 2rem;
+  text-align: center;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.card {
+  background-color: var(--bg-card);
+  width: 350px;
+  border-radius: 10px ;
+}
+
+.img-container {
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-title {
+  padding: 1rem;
+}
+
+.btn-info {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+button {
+  color: var(--description);
+  font-weight: 600;
+  background-color: var(--bg-main);
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid white;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 3rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
